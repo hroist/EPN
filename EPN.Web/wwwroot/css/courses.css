@@ -1,0 +1,66 @@
+﻿/* Vanlig CSS fungerar också. Man kan dock inte använda variabler som finns i tailwind.config.js */
+.coursePage {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card {
+	width: 360px;
+}
+
+.coursepagedetail {
+	max-width: 681px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 3rem;
+}
+
+.coursepagedetail2 {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 3rem;
+}
+
+.detailImg {
+	width: 100%;
+}
+
+.factBox {
+	min-width: 300px;
+	max-width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+
+	@media (min-width: 1000px) {
+		height: 43%;
+	}
+}
+
+.factBox2 {
+	min-width: 300px;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+
+	@media (min-width: 1000px) {
+		height: 43%;
+	}
+}
+
+
+/* För att använda vår Custom css från  filen "tailwind.config.js" */
+@layer components {
+	.card h2 {
+		@apply text-xl text-black font-semibold font-inter;
+	}
+
+	.pinktext {
+		@apply text-xl text-themeColor font-regular font-inter py-7;
+	}
+
+	.factBox {
+		@apply border-t-themeColor;
+	}
+}

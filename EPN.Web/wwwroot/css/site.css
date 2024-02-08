@@ -1,22 +1,53 @@
-html {
-  font-size: 14px;
-}
+/* Font Inter och importerad CSS filer */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import 'courses.css';
+@import 'forms.css';
+
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    /*margin-bottom: 50px;*/
+}
+
+/* ------ Ändra inte denna kod - Start! ------*/
+@layer components {
+    html, body {
+        @apply font-inter text-base font-regular text-black; /* Font: Inter. Font-Size: 16px. Font-weight: regular. Color: Black */
+    }
+
+    .btnTheme { /* Rosa knappen */
+        @apply text-lg bg-themeColor hover:bg-white text-white hover:text-black font-medium font-inter py-2 px-4 rounded;
+    }
+}
+/* ------ Ändra inte denna kod - slut!------*/
+
+
+/* ------ Nedanför kan du lägga till kod vid behov. ------*/
+@layer components {
+    .ePNTitle {
+        @apply text-3xl text-black font-bold font-inter text-center p-5 pt-10;
+    }
+
+    .ePNTitle2 {
+        @apply text-2xl text-black font-bold font-inter text-center p-5;
+    }
 }

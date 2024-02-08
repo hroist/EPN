@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPN.Web", "EPN.Web\EPN.Web.csproj", "{F825FC86-3E4A-4011-A5AE-311C2E573A70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPN.Web", "EPN.Web\EPN.Web.csproj", "{F825FC86-3E4A-4011-A5AE-311C2E573A70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPN.Backoffice", "EPN.Backoffice\EPN.Backoffice.csproj", "{839CBB0F-C492-4F81-BE4E-1C95F0DDDFCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPN.Backoffice", "EPN.Backoffice\EPN.Backoffice.csproj", "{839CBB0F-C492-4F81-BE4E-1C95F0DDDFCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPN.Data", "EPN.Data\EPN.Data.csproj", "{8660871B-C16F-4E65-9B9C-5CDD852B79BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPN.Data", "EPN.Data\EPN.Data.csproj", "{8660871B-C16F-4E65-9B9C-5CDD852B79BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPN.Interfaces", "EPN.Interfaces\EPN.Interfaces.csproj", "{209BBF56-D020-4036-A590-9A7DFECFE490}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPN.Interfaces", "EPN.Interfaces\EPN.Interfaces.csproj", "{209BBF56-D020-4036-A590-9A7DFECFE490}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPN.Common", "EPN.Common\EPN.Common.csproj", "{60DA493D-0ECD-4974-B783-F3926E4FA5F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPN.Common", "EPN.Common\EPN.Common.csproj", "{60DA493D-0ECD-4974-B783-F3926E4FA5F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPN.Test", "EPN.Test\EPN.Test.csproj", "{64FEE9B5-0386-437C-BAE9-803FAF9B64AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPN.Test", "EPN.Test\EPN.Test.csproj", "{64FEE9B5-0386-437C-BAE9-803FAF9B64AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPN.Identity", "EPN.Identity\EPN.Identity.csproj", "{09880F09-F888-43B2-80CE-B5DC1E3C8F5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPN.Identity", "EPN.Identity\EPN.Identity.csproj", "{09880F09-F888-43B2-80CE-B5DC1E3C8F5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPN-LIA", "..\lia\EPN-LIA.csproj", "{E7A7B98F-76EC-4D35-90DF-617DE1654E74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{09880F09-F888-43B2-80CE-B5DC1E3C8F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09880F09-F888-43B2-80CE-B5DC1E3C8F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09880F09-F888-43B2-80CE-B5DC1E3C8F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A7B98F-76EC-4D35-90DF-617DE1654E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A7B98F-76EC-4D35-90DF-617DE1654E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A7B98F-76EC-4D35-90DF-617DE1654E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A7B98F-76EC-4D35-90DF-617DE1654E74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
